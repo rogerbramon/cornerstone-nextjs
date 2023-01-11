@@ -6,12 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
-    "next": "12.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@cornerstonejs/core": "0.19.2",
+    "@cornerstonejs/streaming-image-volume-loader": "0.5.19",
+    "@cornerstonejs/tools": "0.27.2",
+    "@kitware/vtk.js": "24.18.7",
+    "dcmjs": "^0.24.2",
+    "dicom-parser": "^1.8.13",
+    "dicomweb-client": "^0.8.4",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "eslint": "8.21.0",
