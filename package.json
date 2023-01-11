@@ -10,10 +10,10 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@cornerstonejs/core": "0.19.2",
-    "@cornerstonejs/streaming-image-volume-loader": "0.5.19",
-    "@cornerstonejs/tools": "0.27.2",
-    "@kitware/vtk.js": "24.18.7",
+    "@cornerstonejs/core": "^0.25.1",
+    "@cornerstonejs/streaming-image-volume-loader": "^0.8.3",
+    "@cornerstonejs/tools": "^0.34.1",
+    "@kitware/vtk.js": "25.9.0",
     "dcmjs": "^0.24.2",
     "dicom-parser": "^1.8.13",
     "dicomweb-client": "^0.8.4",
